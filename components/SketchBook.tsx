@@ -145,7 +145,7 @@ export default function SketchBook() {
             touchAction: 'pan-y'
           }}
         >
-          {/* @ts-ignore */}
+        {/* @ts-ignore */}
           <HTMLFlipBook 
             ref={bookRef}
             key={pages.length}
@@ -160,7 +160,6 @@ export default function SketchBook() {
             usePortrait={false}        
             startPage={0}
             autoSize={true}
-            maxCoverOpacity={1}
             mobileScrollSupport={false}
             className=""               
           >
